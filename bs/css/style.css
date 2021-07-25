@@ -1,0 +1,27 @@
+.gs-bg{
+    background-color: rgb(122, 194, 144);
+}
+
+.footer-image{
+    margin-left: 320px;
+    
+}
+
+.last-div{
+    margin-left: 100px;
+}
+
+.footer{
+    margin-left: 300px;
+    font-weight: bolder;
+    color: rgb(57, 94, 3);
+}
+
+.news-text{
+    color: rgb(28, 194, 28);
+    
+}
+
+.news-text h2{
+    font-weight: bolder;
+}
