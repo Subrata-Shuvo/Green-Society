@@ -1,9 +1,14 @@
+.nav-css{
+    width: auto;
+}
+
+
 .gs-bg{
     background-color: rgb(122, 194, 144);
 }
 
 .footer-image{
-    margin-left: 320px;
+    margin-left: 440px;
     
 }
 
@@ -25,3 +30,72 @@
 .news-text h2{
     font-weight: bolder;
 }
+
+.team{
+    height: 200px;
+    width: 300px;
+}
+ /* MEDIA QUERY */
+
+ @media only screen and (max-width: 640px) {
+
+    .footer-image{
+        height: 100px;
+        width: 100px;
+        margin-left: 5px;
+        margin-bottom: 120px;
+    }
+
+    .footer{
+        margin-left: 30px;
+    }
+    .subscribe{
+        width: 130%
+   }
+   .support-section{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .gs-bg{
+       height: 250px;
+       width: 250px;
+   }
+ .support{
+     margin-left: 10px;
+ }
+
+ .gift img{
+     display: none;
+ }
+ 
+
+ .row-gift {
+     display: none !important;
+ }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+ .row-gift img{
+    display: none !important;
+ }
+ .footer{
+     margin-right: -40px;
+     margin-right: 200px;
+ }
+ .footer-image{
+    margin-left: 270px;
+
+ }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */ 
