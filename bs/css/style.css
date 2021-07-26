@@ -81,9 +81,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
- .row-gift img{
+ /* .row-gift img{
     display: none !important;
- }
+ } */
  .footer{
      margin-right: -40px;
      margin-right: 200px;
