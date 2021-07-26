@@ -7,6 +7,9 @@
     background-color: rgb(122, 194, 144);
 }
 
+.connect{
+    margin-left: 100px;
+}
 .footer-image{
     margin-left: 440px;
     
@@ -17,7 +20,7 @@
 }
 
 .footer{
-    margin-left: 300px;
+    margin-left: 400px;
     font-weight: bolder;
     color: rgb(57, 94, 3);
 }
@@ -45,9 +48,11 @@
         margin-left: 5px;
         margin-bottom: 120px;
     }
-
+    .connect{
+        margin-left: 0px;
+    }
     .footer{
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .subscribe{
         width: 130%
@@ -74,28 +79,37 @@
      display: none !important;
  }
 
-} 
+ }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {}
-
 /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
  /* .row-gift img{
     display: none !important;
  } */
- .footer{
-     margin-right: -40px;
-     margin-right: 200px;
+ .connect{
+     margin-left: 0px;
  }
- .footer-image{
-    margin-left: 270px;
-
+ .new-footer{
+     margin-left: 100px;
+     /* margin-right: 150px; */
  }
+ .new-footer-image{
+    margin-left: 250px;  
+ }
+ .row-gift {
+    display: none !important;
+}
+ 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {} */
+@media only screen and (min-width: 992px) {
+    .new-footer-image{
+        margin-left: 500px;
+}
+.new-footer{
+    margin-left: 350px;
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {} */ 
+}
